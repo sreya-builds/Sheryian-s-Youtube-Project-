@@ -1,10 +1,10 @@
 let main = document.querySelector(".main")
 let cusr = document.querySelector(".cursor")
 
-main.addEventListener("mousemove",function(dets){
-   cusr.style.left = dets.x+"px"
-   cusr.style.top = dets.y+"px"
+main.addEventListener("mousemove",e =>{
+  cusr.style.transform = `translate(${e.clientX}px,${e.clientY}px)`
 })
+
 
 let imgs= document.querySelectorAll(".image img")
 

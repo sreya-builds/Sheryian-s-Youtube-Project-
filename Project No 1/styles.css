@@ -78,6 +78,7 @@ html, body {
     width: 100%;
     text-align: center;
     font-weight: 300;
+     will-change: transform;
 }
 .image {
     position: relative;
@@ -95,8 +96,8 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%) rotate(var(--rot));
     transition: 
-    transform 3.5s cubic-bezier(.22,.61,.36,1),
-    opacity 2.5s ease;
+    transform 1s cubic-bezier(.22,.61,.36,1),
+    opacity 0.5s ease;
     cursor: pointer;
 }
 .image img:nth-child(1) 
