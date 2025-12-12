@@ -1,0 +1,12 @@
+Maine js code mai do cheezo ka code likha hai 
+1.cusror ka dets and addeventlistener ke help se maine cursor ko moveable banaya hai 
+2.images 
+  a. sabse phele maine sare images ko select kiya 
+  b. uske baad maine for each loop use kiya taki har image ko alag alag click na dene pare 
+  c. uske baad maine addeventlistener lagana taki mai image ke upar click kar saku 
+  d. aur phir banaya if and else taki 1,3,5 wale image niche jaye aur 2,4,6 wale image upar jaye 
+
+ Maine css mai aaj kuch naya shikha 
+ nth-child ka use maine har ek image ko rotate dene ke liye ki 
+ rotate deg ka matlab ye tah ki maine har image ko ek ek rotation degree de hai 
+ rotate(calc(var(--rot) - 40deg)) - iska matlab hota hai normal rotation ka calculate function  

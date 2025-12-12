@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(236, 225, 14, 0.963);
+  overflow: hidden;
+}
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin:30px 0 0 40px;
+    
+}
+
+.btn {
+    padding: 12px 20px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    border-color: black;
+    transform: translateY(-3px);
+}
