@@ -1,0 +1,7 @@
+problem : humara mouse jab chal raha hai to kai baar chal raha hai jiske wajah se 
+kahi baar card create ho jayega but vo hum nhi chahte hai 
+
+
+mouse jitne baar chalna hai chale but execution of function kam baar ho
+
+throttling - kisi particular code ke no of execution ko kam kar dena 
